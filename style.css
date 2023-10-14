@@ -1,0 +1,214 @@
+body{
+    background-color: rgb(224, 218, 218);
+}
+
+.navbar{
+    background-color: rgb(71, 114, 233);
+}
+.d-flex{
+    margin: auto;
+    width: 500px;
+}
+nav{
+    height: 70px;
+    
+}
+
+.main{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.story{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: auto;
+    padding-top: 10px;
+    
+
+}
+.story > figure > img{
+    border-radius: 15px !important;
+   
+}
+.story > figure > img:hover{
+    border: 2px solid black;
+    cursor: pointer;
+   
+}
+.header{
+    background-color: whitesmoke;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+#messeage{
+    padding-left: 13px;
+    color: gray;
+    font-size: large;
+    cursor: pointer;
+    
+}
+.main2{
+    display: flex;
+    justify-content: space-around;
+}
+#live{
+    padding-left: 5px;
+    cursor: pointer;
+}
+#liveIcon:hover{
+    background-color: rgb(233, 229, 229);
+    border-radius: 4px;
+    cursor: pointer;
+}
+#photos{
+    padding-left: 5px;
+    cursor: pointer;
+}
+#livePhoto:hover{
+    background-color: rgb(233, 229, 229);
+    border-radius: 4px;
+    cursor: pointer;
+}
+#feel{
+    padding-left: 5px;
+    cursor: pointer !important;
+}
+#liveFeel:hover{
+    background-color: rgb(233, 229, 229);
+    border-radius: 4px;
+    cursor: pointer;
+}
+#post{
+    /* padding: 30px; */
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    cursor: pointer;
+    
+}
+#divimg{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding-top: 20px;
+
+}
+.profile{
+    position: relative;
+    left: 27px;
+}
+.profileName{
+    position: relative;
+    left: 25px;
+    bottom: 8px;
+    color: black !important;
+    font-weight: bold;
+}
+#tick{
+    position: relative;
+    left: 28px;
+    bottom: 8px;
+    cursor: pointer;
+}
+#follow{
+    position: relative;
+    left: 28px;
+    bottom: 8px;
+    color: rgb(45, 87, 163);
+    font-weight: 500;
+}
+#time{
+    position: relative;
+    right: 101px;
+    top: 15px;
+}
+.world{
+    position: relative;
+    right: 100px;
+    top: 15px;
+}
+#description{
+    position: relative;
+    left: 20px;
+    top: 20px;
+   
+}
+hr{
+    padding-bottom: 10px;
+}
+.childDiv{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    
+}
+.likes{
+    cursor: pointer;
+}
+.liked{
+    padding-left: 10px;
+}
+#like:hover{
+    background-color: rgb(233, 229, 229);
+    border-radius: 4px;
+    cursor: pointer;
+}
+#comment:hover{
+    background-color: rgb(233, 229, 229);
+    border-radius: 4px;
+    cursor: pointer;
+}
+#share:hover{
+    background-color: rgb(233, 229, 229);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+    /* NAVEBAR */
+
+@media screen and (max-width: 610px) {
+    .d-flex{
+        width: auto;   
+    }
+  }
+  @media screen and (max-width: 390px) {
+    .d-flex{
+        width: auto;
+          
+    }
+    .input{
+        width: 40%;
+        margin: auto;
+    }
+   
+  }
+  @media screen and (max-width: 360px) {
+    .FBicon{
+        padding-top: 15px;
+    }
+  }
+
+
+    /* STORIES */
+
+    @media screen and (min-width: 1200px) {
+        .story > figure > img{
+            width: auto;
+           
+        }
+      }
