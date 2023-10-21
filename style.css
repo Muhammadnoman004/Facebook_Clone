@@ -52,6 +52,7 @@ nav{
     cursor: pointer;
     
 }
+
 #messeage{
     padding-left: 13px;
     color: gray;
@@ -145,6 +146,9 @@ nav{
     top: 20px;
    
 }
+/* #profileDiv{
+    padding-right: 10px !important;
+} */
 hr{
     padding-bottom: 10px;
 }
@@ -212,3 +216,27 @@ hr{
            
         }
       }
+
+      @media screen and (max-width: 500px) {
+          .main2{
+              font-size: small;
+          }
+          
+      }
+      @media screen and (max-width: 400px) {
+        .padd{
+            padding-left: 6px;
+        }
+        #description{
+           padding-right: 20px;
+        }
+    }
+
+    @media screen and (max-width: 370px) {
+        .childDiv{
+            font-size: x-small;
+        }
+        .messeage{
+            font-size: small !important;
+        }
+    }
